@@ -346,7 +346,7 @@ url('../../fonts/Raleway-Medium/Raleway-Medium.svg#Raleway-Medium') format('svg'
 
 .style-sample > div {
     height: 404px;
-    background: url(/templates/itl_nefario/images/laminat/sample.jpg) no-repeat center 0;
+    background: url(../templates/itl_nefario/images/laminat/sample.jpg) no-repeat center 0;
 }
 
 .wrap {
