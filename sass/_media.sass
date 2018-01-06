@@ -1,0 +1,367 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.create-window
+		width: 992px
+	.left-controls
+		top: 0px
+		left: 10px
+	.right-controls
+		right: 60px
+	.window__text__wrp
+		.window__text__title
+			font-size: 15px
+		.window__text
+			width: 100%
+			font-size: 15px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.window__image__znak
+		top: 465px
+	.calc
+		width: 100%
+		padding: auto
+	.window-bg
+		width: 400px
+	.window-sill
+		width: 485px 
+		height: 30px
+		top: 375px
+		left: -30px
+		background-size: 484px auto !important
+	.window-frame
+		width: 400px
+		background-size: 400px auto !important
+		height: 350px
+		left: 10px
+	.window-fittings
+		width: 400px
+		background-size: 400px auto !important
+		left: 10px
+		height: 350px
+	.window-toning
+		width: 400px
+		background-size: 400px auto !important
+		left: 10px
+		height: 350px	
+	.window-layout
+		width: 400px
+		background-size: 400px auto !important
+		left: 0px
+		height: 350px	
+	.your-window
+		top: -2px;
+		left: 130px;
+		width: 446px;
+		height: 390px;
+	.window-slop
+		width: 450px
+		background-size: 450px auto !important
+		height: 376px !important
+		top: 12px
+		left: -15px
+	.create-window
+		width: 690px
+		height: 388px 
+	.control-element
+		width: 120px
+		height: 116px
+		span
+			font-size: 14px
+		.image-wrap
+			div
+				width: 30px
+				height: 30px
+			img
+				max-width: 90px !important
+				height: auto
+	// .slick-track
+	// 	width: 769px !important
+	// 	margin: 0
+	// 	padding: 0 !important
+	// 	height: 500px !important
+	// .close-slider_wrap
+	// 	display: block
+	// 	width: 481px
+	// 	left: 0
+	// .slick-slider
+	// 	width: 968px
+	.left-controls
+		top: 0px
+		left: -20px
+	.right-controls
+		right: -20px
+	.arrow
+		display: none
+	.window__line 
+	.window__line__last
+		margin-left: 0
+		.window__text__right
+			width: 100%
+	.slick-track.slick-initialized.slick-slider
+		width: 600px 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.window__image__znak
+		top: 565px
+	.window__text__wrp
+		img
+			display: none
+	.slick-prev:before
+		left: 0px
+	.examples-item
+		display: block
+		max-width: 481px
+		margin: auto
+	.calc
+		width: 100%
+		// max-width: 350px
+		padding: auto
+		margin: auto
+		height: 850px
+	.window-bg
+		left: 0
+		right: 0
+		margin: 0 auto
+		height: 350px
+	.window-sill // подоконник
+		width: 482px // 485px
+		height: 25px
+		top: 379px
+		left: 5px
+		right: 0
+		margin: 0 auto
+		background-size: 482px auto !important
+	.window-frame
+		width: 400px // 400px
+		background-size: 400px auto !important
+		height: 350px
+		left: 0
+		right: 0
+		margin: 0 auto
+	.window-fittings
+		width: 400px
+		background-size: 400px auto !important
+		left: 0
+		right: 0
+		margin: 0 auto
+		height: 350px //350px
+	.window-toning // тонировка
+		width: 400px
+		background-size: 400px auto !important
+		left: 0
+		right: 0
+		margin: 0 auto
+		height: 350px	
+	.window-layout //решетка
+		width: 400px
+		background-size: 400px auto !important
+		left: 0
+		right: 0
+		margin: 0 auto
+		height: 350px	
+	.your-window
+		top: 220px;
+		left: 0px;
+		right: 0px
+		margin: 0 auto
+		width: 100%; //446px
+		height: 390px;
+	.window-slop // откос
+		width: 450px // 450px
+		background-size: 450px auto !important
+		height: 376px !important 
+		top: 17px
+		left: 0
+		right: 0
+		margin: 0 auto
+	.create-window
+		width: 320px //690px
+		width: 100%
+		height: 388px 
+	.control-element
+		width: 100px
+		height: 95px
+		margin:
+			right: 20px
+			left: 10px
+			bottom: 20px
+		display: inline-block !important
+		span
+			font-size: 11px
+			padding: 0
+		.image-wrap
+			div
+				width: 30px
+				height: 30px
+			img
+				max-width: 70px !important
+				height: auto
+	.right-controls
+		top: 130px
+		left: 0px
+		right: 0px
+	.left-controls
+		left: 0px
+		right: 0px
+		top: 0	
+	// .slick-track
+	// 	width: 670px !important
+	// 	margin: 0
+	// 	padding: 0 !important
+	// 	height: 500px !important
+	.close-slider_wrap
+		display: block
+		width: 481px
+		left: 0
+	.slick-slider
+		width: 480px
+	.windows-container
+		grid-template-columns: repeat(2, 1fr)
+		grid-gap: 30px
+	.slick-track.slick-initialized.slick-slider
+		width: 420px 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.window__image__znak
+		top: 765px
+	.calc
+		width: 100%
+		// max-width: 350px
+		padding: auto
+		margin: auto
+		height: 700px
+	.window-bg
+		width: 255px // 400px
+		background-size: 255px auto !important
+		height: 220px
+	.window-sill // подоконник
+		width: 310px // 485px
+		height: 15px
+		top: 248px
+		left: 5px
+		background-size: 310px auto !important
+	.window-frame
+		width: 255px // 400px
+		background-size: 255px auto !important
+		height: 220px
+	.window-fittings
+		width: 255px
+		background-size: 255px auto !important
+		height: 220px //350px
+	.window-toning
+		width: 255px
+		background-size: 255px auto !important
+		height: 220px	
+	.window-layout //решетка
+		width: 255px
+		background-size: 255px auto !important
+		height: 220px	
+	.your-window
+		top: 20px;
+		width: 100%; //446px
+		height: 290px;
+	.window-slop
+		width: 287px // 450px
+		background-size: 287px auto !important
+		height: 240px !important 
+		top: 17px
+		left: 1px
+	.create-window
+		width: 320px //690px
+		width: 100%
+		height: 388px 
+	.control-element
+		width: 80px
+		height: 75px
+		margin:
+			right: 10px
+			left: 10px
+			bottom: 20px
+		display: inline-block !important
+		span
+			font-size: 11px
+			padding: 0
+		.image-wrap
+			div
+				width: 30px
+				height: 30px
+			img
+				max-width: 50px !important
+				height: auto
+	// .slick-slider
+	// 	width: 100%
+	.right-controls
+		top: 400px
+		left: 0px
+		right: 0px
+	.left-controls
+		top: 290px
+		left: 0px
+		right: 0px
+		// top: 0	
+	// .multiple-items
+		// .slick-slide
+		// 	width: 25px
+		// 	height: 25px
+		// width: 25px
+		// height: 25px
+		// a
+		// 	width: 25px
+		// 	height: 25px
+	// .left-controls
+	// 	left: -100px
+	.windows-container
+		grid-template-columns: repeat(1, 1fr)
+		grid-gap: 30px
+	.rightposit
+		p
+			width: 100%
+			padding: 0
+	// .slick-list
+	// 	width: 320px
+	// 	left: 0
+	.slick-slider
+		width: 320px
+	.slick-track.slick-initialized.slick-slider
+		width: 250px 
+	.window__text.window__text__right
+		width: 100%
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

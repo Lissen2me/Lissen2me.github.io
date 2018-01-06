@@ -1,0 +1,84 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.slick-track.slick-initialized.slick-slider
+	padding-top: 0px
+	width: 900px 
+	opacity: 1
+	transform: transate3d(0px,0px,0px)
+.slick-slide
+	a.active
+		span
+			margin-left: -50px
+.window1
+	.examples-item
+		margin-bottom: 50px
+		img
+			display: block
+			margin: auto
+		.month-pay
+			text-align: center
+		.month-pay-price
+			text-align: center
+		ul
+			margin-left: 0
+			// display: block
+			// margin: auto
+			width: 280px
+			margin: auto
+.slick-prev:before
+	font-family: 'fontawesome'
+	content: '\f104'
+	color: #737d8a
+	font-size: 40px
+	padding: 20px 0
+	// margin-left: -45px
+.slick-next:before
+	font-family: 'fontawesome'
+	content: '\f105'
+	color: #737d8a
+	font-size: 40px
+	padding: 20px 0
+.window__text__wrp
+	line-height: 20px
+@import "media" // Всегда в конце

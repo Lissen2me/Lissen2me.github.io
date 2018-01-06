@@ -1,0 +1,162 @@
+.home h1 {
+  line-height: 1;
+}
+.home h2 {
+  font-size: 21px;
+}
+@media screen and (min-width: 768px) {
+  .home h2 {
+    font-size: 30px;
+  }
+}
+.home .jumbotron {
+  background-color: transparent;
+  position: relative;
+  margin-bottom: 0;
+}
+.home .t3-module {
+  margin-bottom: 0 !important;
+}
+.home .feature {
+  padding: 100px 0;
+}
+.home .feature-bottom {
+  padding: 100px 0;
+}
+.home h2.module-title {
+  margin-bottom: 0;
+}
+.home .portfolio {
+  padding: 100px 0;
+}
+.home .portfolio .moduletable h3,
+.home .service .moduletable h3 {
+  padding: 0;
+  font-weight: 300;
+  text-align: center;
+  font-size: 34px;
+  color: #444;
+  text-transform: uppercase;
+}
+.home .clients .moduletable h3 {
+  padding: 0;
+  font-weight: 300;
+  text-align: right;
+  font-size: 34px;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.home .service-wrap {
+  padding: 100px 0;
+  background: #fafafa;
+}
+.home .service-top {
+  padding-bottom: 20px;
+}
+.home .service {
+  padding-top: 20px;
+}
+.home .feature-tab {
+  padding: 100px 0;
+}
+.home .testimonials {
+  padding: 100px 0;
+  text-align: center;
+}
+.home .extension {
+  padding: 100px 0;
+}
+.home .clients {
+  padding: 100px 0 100px;
+}
+.home .subscribe {
+  padding: 100px 0;
+  background: #b980a4;
+  color: #ffffff;
+  text-align: center;
+}
+.home .action-home-2 {
+  padding: 100px 0;
+}
+.home .t3-sl-2 {
+  text-align: center;
+}
+.home .t3-sl-2 .img-responsive {
+  display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .home .t3-sl-2 p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.home .t3-sl-3 p > img {
+  margin-top: 20px;
+}
+@media screen and (min-width: 992px) {
+  .home .t3-sl-3 p > img {
+    margin-top: 0;
+  }
+}
+.home .t3-sl-3,
+.home .t3-sl-4 {
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home .t3-sl-3 p,
+  .home .t3-sl-4 p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.home .t3-sl-3 .jumbotron,
+.home .t3-sl-4 .jumbotron {
+  padding-top: 0;
+}
+.home .t3-sl-3 .jumbotron h1,
+.home .t3-sl-4 .jumbotron h1 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.home .t3-sl-3 .jumbotron p,
+.home .t3-sl-4 .jumbotron p {
+  font-size: 18px;
+  line-height: 1.25;
+  color: #999999;
+}
+@media screen and (min-width: 768px) {
+  .home .t3-sl-3 .jumbotron p,
+  .home .t3-sl-4 .jumbotron p {
+    font-size: 21px;
+  }
+}
+.home .t3-sl-5 {
+  background: #ffffff;
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  padding: 0;
+}
+.home .t3-sl-5 .jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white p {
+  color: #ffffff;
+}
+.white .moduletable h3 {
+  color: #ffffff;
+}
+.white .feature-list span {
+  color: #ffffff;
+}
+.white .feature-list:hover span {
+  color: #b980a4;
+}
